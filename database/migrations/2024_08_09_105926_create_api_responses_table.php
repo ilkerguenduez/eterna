@@ -12,6 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('api_responses', function (Blueprint $table) {
+            // example migration for database
             $table->id();
             $table->json('response_data');
             $table->integer('column1')->nullable();
