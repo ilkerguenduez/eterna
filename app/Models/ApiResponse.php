@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class ApiResponse extends Model
 {
     use HasFactory;
+    // bağlantılı veritabanları için model
 }
