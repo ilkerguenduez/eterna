@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Http;
 use App\Models\ApiResponse;
 
 class ApiDataController extends Controller
+//example apidata controller
 {
     public function fetchData(){
 
