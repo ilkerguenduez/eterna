@@ -17,6 +17,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')->hourly();
         $schedule->job(new FetchApiData)->hourly();
+        //schedule
     }
 
     /**
