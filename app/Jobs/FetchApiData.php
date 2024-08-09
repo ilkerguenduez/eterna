@@ -26,6 +26,7 @@ class FetchApiData implements ShouldQueue
      */
     public function handle(): void
     {
+        //api job example
         $response = Http::withHeaders([
             'Accept' => 'application/json',
             'Authorization' => 'Bearer token-here',
